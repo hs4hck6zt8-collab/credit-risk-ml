@@ -10,7 +10,7 @@ DATA_PATH = DATA_DIR / "credit_risk_dataset.csv"
 
 # Целевые переменные
 TARGET_CLF = "loan_status"      # 0 - вернет, 1 - не вернет
-TARGET_RATE = "loan_int_rata"   # процентная ставка
+TARGET_RATE = "loan_int_rate"   # процентная ставка
 TARGET_AMOUNT = "loan_amnt"     # сумма кредита
 
 # Признаки
@@ -27,6 +27,16 @@ NUMERICAL_FEATURES = [
     "person_emp_length",
     "loan_percent_income",
     "cb_person_cred_hist_length"
+]
+
+ENGINEERED_FEATURES = [
+    "log_income",
+    "debt_to_income",
+    "income_per_age",
+    "grade_num",
+    "emp_income_interaction",
+    "high_risk_intent",
+    "cred_hist_per_age"
 ]
 
 # Const
