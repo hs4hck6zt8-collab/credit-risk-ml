@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Data (большие данные - не загружать)
+data/*.csv
+data/*.zip
+data/*.parquet
+!data/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Graphics (автоматически сгенерируются)
+reports/figures/*.png
+!reports/figures/.gitkeep
+
+# Jupiter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
