@@ -116,7 +116,7 @@ credit-risk-ml/
   
 ```bash  
 # 1. Clone and install  
-git clone [https://github.com/moksa44/credit-risk-ml.git](https://vk.com/away.php?to=https%3A%2F%2Fgithub.com%2moksa44%2Fcredit-risk-ml.git&utf=1)  
+git clone [https://github.com/hs4hck6zt8-collab/credit-risk-ml.git](https://vk.com/away.php?to=https%3A%2F%2Fgithub.com%2Fhs4hck6zt8-collab%2Fcredit-risk-ml.git&utf=1)  
 cd credit-risk-ml  
 pip install -r requirements.txt  
   
