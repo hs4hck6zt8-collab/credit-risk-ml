@@ -22,6 +22,14 @@ Given a loan applicant's profile, the system answers three questions:
 Models work as a **cascade**: rate and amount are predicted only for approved applicants.  
   
 ---  
+
+## Demo
+
+| Applicant Form               | Decision | SHAP Explanation |
+|------------------------------| --- | --- |
+| ![Form](docs/app_form_1.png) | ![Decision](docs/app_approved_1.png) | ![SHAP](docs/app_shap_1.png) |
+
+---
   
 ## Results  
   
