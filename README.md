@@ -140,6 +140,20 @@ python src/[run_evaluation.py](https://vk.com/away.php?to=https%3A%2F%2Frun_eval
 
 ---
 
+## Docker
+
+```bash
+# Build
+docker build -t credit-risk-ml .
+
+# Run
+docker run -p 8501:8501 credit-risk-ml
+
+# Open
+http://localhost:8501
+```
+
+---
 ## Methodology
 
 ### Feature Engineering
